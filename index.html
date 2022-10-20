@@ -48,10 +48,9 @@
       color: rgba(255, 255, 255, 0.8);
     }
     .my-h1 {
-      font-size: 5rem;
+      font-size: 2rem;
       font-weight: 700;
-      line-height: 5.5rem;
-      padding-right: 15rem;
+      line-height: 2.5rem;
     }
     .my-box {
       position: absolute;
@@ -69,6 +68,14 @@
       width: auto;
       max-height: 5rem;
     }
+    @media (min-width: 768px) {
+      .my-h1 {
+        font-size: 5rem;
+        font-weight: 700;
+        line-height: 5.5rem;
+        padding-right: 15rem;
+      }
+    }
     @media (min-width: 992px) {
       .my-items {
         max-height: 10rem;
@@ -78,7 +85,7 @@
         font-weight: 700;
         line-height: 152px;
       }
-     }
+    }
   </style>
 </head>
 
@@ -176,20 +183,20 @@
           </div>
           <div class="col-12">
             <div class="row d-flex justify-content-center">
-              <div class="col-3">
+              <div class="col-6 col-md-3 my-2 my-lg-0 order-md-first">
                 <img class="mx-auto d-block my-items" src="./res/ginger.png" alt="">
-                <h6 class="text-center mt-5">Содержит
+                <h6 class="text-center mt-lg-5">Содержит
                   <br><span class="text-orange">имбирь</span>
                 </h6>
               </div>
-              <div class="col-6">
+              <div class="col-12 col-md-6 my-2 my-lg-0 order-first">
                 <img class="mx-auto d-block my-items" src="./res/nootris — копия.png" alt="">
-                <h3 class="text-center mt-4">+ Бесплатная доставка</h3>
+                <h3 class="text-center mt-lg-4">+ Бесплатная доставка</h3>
                 <h4 class="text-center text-orange">Специальная цена</h4>
               </div>
-              <div class="col-3">
+              <div class="col-6 col-md-3 my-2 my-lg-0">
                 <img class="mx-auto d-block my-items" src="./res/vorus.png" alt="">
-                <h6 class="text-center mt-5">Нейтрализует 
+                <h6 class="text-center mt-lg-5">Нейтрализует 
                   <br><span class="text-orange">вирусы</span>
                 </h6>
               </div>
