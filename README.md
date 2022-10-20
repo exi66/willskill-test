@@ -5,4 +5,4 @@
 https://www.figma.com/file/o8KBWl9zTNrwOHNuUknXbz/Test
 
 ## Проделанная работа
-Результат работы расположен по пути [`/index.html`](https://github.com/exi66/willskill-test/blob/main/index.html)
+Результат работы расположен по пути [`/index.html`](https://github.com/exi66/willskill-test/blob/main/index.html) или на [github pages](https://exi66.github.io/willskill-test/)
